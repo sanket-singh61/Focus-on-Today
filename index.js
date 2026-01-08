@@ -8,7 +8,7 @@ const reset = document.querySelector('.reset')
 
 const allQuates = [
     'Raise the bar by comleting your goals!',
-    'well begun is half don!e',
+    'well begun is half done!',
     'just a step away, keep going!',
     'WoW! You just completed all the goals, time for chill :)',
 ]
@@ -102,5 +102,7 @@ reset.addEventListener('click', function() {
     localStorage.setItem('allGoles', JSON.stringify(allGoals));
     reset.style.display = 'none';
     localStorage.removeItem('allGoles')
+    progressLabel.textContent = allQuates[0]
+
 
 })                                   
