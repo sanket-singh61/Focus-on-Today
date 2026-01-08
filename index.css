@@ -139,18 +139,15 @@ main{
 
 .reset {
     display: none;
-    padding: 0px 14px;
-    /* background-color: #4CAF50; */
-    color: #4CAF50;
+    padding: 6px 20px;
+    background-color: #4CAF50;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     position: absolute;
-    font-weight: 800;
-    font-size:x-large;
-    text-align: center;
-    /* border-radius: 50%; */
+    font-weight: 500;
 }
 
 .reset-visible {
