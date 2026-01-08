@@ -140,8 +140,8 @@ main{
 .reset {
     display: none;
     padding: 0px 14px;
-    background-color: #4CAF50;
-    color: white;
+    /* background-color: #4CAF50; */
+    color: #4CAF50;
     border: none;
     border-radius: 5px;
     cursor: pointer;
